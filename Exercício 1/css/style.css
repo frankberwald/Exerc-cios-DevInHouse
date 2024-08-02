@@ -1,3 +1,6 @@
+* {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
 body {
   margin: 0;
   display: block;
@@ -10,14 +13,13 @@ body {
   margin: 0 auto;
   padding: auto;
   background-color: #fff;
-  display:block;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display:block;  
 }
 .color{
   background-color: #f3f3f3;
 }
 h1{
-  background-color: #ffa500;
+  background-color: #fab73c;
   color: #e9802b;
   text-align: center;
   padding-bottom: 30px;
@@ -40,6 +42,7 @@ h2 {
 }
 .navbar-item{
   margin: 0 20px;
+  transition: background-color 0.3s ease;
 }
 .navbar-item a{
   color:#e9802b;
@@ -49,8 +52,9 @@ h2 {
   display:block;
 }
 .navbar-item a:hover{
-  background-color: #f3f3f3;
+  background-color: #fab73c;
   border-radius: 5px;
+  color:#f3f3f3
 }
 .content{
   border: 5px #f3f3f3 solid;
@@ -142,9 +146,8 @@ td{
 .maps{
   text-align: center;
 }
-.location img{
-  align-items: center;
-  max-width: 100%;
+iframe {
+  border-radius: 10px;
 }
 
 /* CONTACT */
@@ -170,6 +173,7 @@ td{
 footer{
   background-color: #f3f3f3;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 /* CONTACT PAGE */
