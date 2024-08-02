@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f3f3;
+}
+section{
+  display: grid;
+}
+.container {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+.title{
+  text-align: center;
+}
+h2{
+  padding: 3px;
+  margin: 3px;
+  color: coral;
+}
+ol, ul {
+  margin: 5px;
+  padding: 5px;
+}
+.description{
+  text-align: center
+}
+.bolo{
+  margin: auto;
+  padding: 10px;
+  display: block;
+}
