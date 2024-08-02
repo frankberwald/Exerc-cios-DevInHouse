@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.container{
+  margin: 0 auto;
+  padding: auto;
+  background-color: #fff;
+  display:block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.color{
+  background-color: #f3f3f3;
+}
+h1{
+  background-color: #ffa500;
+  color: #e9802b;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 25px;
+  margin: auto;
+}
+h2 {
+  color:#e9802b;
+}
+.navbar {
+  background-color: #f3f3f3;
+}
+.navbar-menu{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.navbar-item{
+  margin: 0 20px;
+}
+.navbar-item a{
+  color:#e9802b;
+  text-decoration: none;
+  font-size: 20px;
+  padding:5px 10px;
+  display:block;
+}
+.navbar-item a:hover{
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}
+.content{
+  border: 5px #f3f3f3 solid;
+  padding:20px;
+  margin:auto;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  width: 80vh;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/* CARDAPIO */
+
+.empada {
+  display:block;
+  justify-content: left;
+  max-width: 40vh;
+  margin: auto;
+  border-radius: 15px;
+}
+table {
+  margin: auto;
+  width: 75%;
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+.th1 {
+  background-color: orange;
+  color:#f3f3f3;
+  margin: 2px;
+  padding: 2px;
+}
+th, td {
+  text-align: center;
+  border: 1px solid #ddd;
+}
+th{
+  color:#797875;
+  background-color: #f4f4f4;
+  padding: 5px;
+  font-weight: bold;
+}
+tr:nth-child(even){
+  background-color: #f9f9f9;
+}
+td{
+  background-color: #fff;
+}
+.info {
+  text-align: center;
+}
+
+/* ABOUT */
+.team{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team h2{
+  margin-bottom: 20px;
+}
+.team-members{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.team-member{
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+.team img{
+  margin-bottom: 10px;
+  justify-content: center;
+  display: inline-block, center;
+  max-width: 150px;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+.team span{
+  font-weight: bold;
+}
+.team p{
+  text-align: center;
+  margin: 0;
+}
+.maps{
+  text-align: center;
+}
+.location img{
+  align-items: center;
+  max-width: 100%;
+}
+
+/* CONTACT */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 20px;
+  max-width: 220vh;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/* FOOTER */
+footer{
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+/* CONTACT PAGE */
+.contact p {
+  margin: 5px 0;
+  color: #555;
+  text-align: left;
+}
+.contact .social-buttons {
+  margin-top: 10px;
+}
+.contact .social-buttons a {
+  text-decoration: none;
+  margin: 0 5px;
+  color: #fff;
+  background-color: #333;
+  padding: 8px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.contact .social-buttons a.facebook {
+  background-color: #3b5998;
+}
+.contact .social-buttons a.twitter {
+  background-color: #1da1f2;
+}
+.contact .social-buttons a.instagram {
+  background-color: #e4405f;
+}
