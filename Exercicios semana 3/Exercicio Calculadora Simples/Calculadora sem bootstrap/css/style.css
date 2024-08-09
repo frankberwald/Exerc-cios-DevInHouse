@@ -1,0 +1,30 @@
+.container {
+  margin: auto;
+  display:block;
+  align-items: center;
+  align-content: center;
+  width: 300px;
+  height: 180px;
+  border-color: #f3f3f3;
+  border: 2px;
+}
+
+.field {
+  margin-top: 5px;
+  border-radius: 4px;
+  border:none;
+}
+.btn{
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+p {
+  font-size: 16px;
+  color:#333;
+  display: block;
+  border: 5px;
+  border-color: #f3f3f3;
+}

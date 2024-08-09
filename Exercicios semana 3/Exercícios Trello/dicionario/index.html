@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dicionário</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 0.9em;
+      margin: 0;
+      padding: 0;
+    }
+    h1 h2{
+      display: inline-block;
+    }
+    header {
+      display:block;
+      background-color: wheat;
+      font-size: 1.7em;
+      text-align: center;
+    }
+    ul{
+      background-color: #f3f3f3;
+      padding:20px;
+      margin:20px;
+    }
+    ul li {
+      font-size: 1em;
+    }
+    ul p {
+      font-size:1.4em;
+    }
+  </style>
+</head>
+<body>
+  <header><span>Dicionário HTML</span></header>
+  <br>
+  <h1>
+      <ul>
+      <p>Estrutura</p>
+    <li>header = Cabeçalho </li>
+    <li>p = Parágrafo</li>
+    <li>footer = Rodapé</li>
+    <li>nav = Barra de navegação</li>
+    <li>main = Área do conteudo principal</li>
+    <li>article = Area de publicação</li>
+    <li>section = Area agrupada</li>
+    <li>aside = Barra lateral</li>
+    <li>ul = Lista simples</li>
+    <li>span = Destaca uma parte do texto</li>
+    <li>style = css direto na pagina, sem utilizar css/style.css</li>
+    <li>br = pula linha</li> 
+      </ul>
+    </h1>
+
+    <h2>
+      <ul>
+      <p>Form e Inputs</p>
+    <li>input:tipo = atalho para definir a input com tipo sem a necessidade de escrever o comando por extenso</li>
+    <li>text = texto simples</li>
+    <input type="text" name="" id="">
+    <li>email = endereço de email</li>
+    <input type="email" name="" id="">
+    <li>password = senha com caracteres ocultos</li>
+    <input type="password" name="" id="">
+    <li>url = só aceita links</li>
+    <input type="url" name="" id="">
+    <li>datalist = lista de opções</li>
+    <label for="linguagens">Linguagens front-end</label>
+    <input list="linguagens">
+    <datalist id="linguagens">
+    <option value="css"></option>
+    <option value="html"></option>
+    <option value="javascript"></option>
+    <option value="node"></option>
+    </datalist>
+    </input>    
+    <li>number = numeros simples</li>
+    <li>textarea = textos mais extensos, como uma caixa de mensagem</li>
+    <li>rows="numero" cols="numero", define o limite de colunas e linhas</li>
+    <li>select = lista dropdown de itens</li>
+    <li>option = deve ser colocado apos select 
+      < select name="produto" >
+      < option value="opção1>
+      < /select ></li>
+    <li>multiple size="numero" = define um limite para a lista</li>
+    <li>date = selecionador de datas</li>
+    <input type="date" name="" id="">
+    <li>checkbox = caixas de marcação com opções múltiplas</li>
+    <li>radio = caixas de marcação com opçôes individuais</li>
+    <li>checked = imprime na tela a caixa marcada</li>
+    <li>file = upload de arquivos</li>
+    <li>submit = botão de enviar</li>
+    <input type="submit" value="Enviar">
+    <li>range = slider pra selecionar intervalo</li>
+    <input type="range" name="" id="">
+    <li>Tick = range com valores fixos</li>
+    <label for="tick">Gorjeta</label>
+    <input type="range" name="tick" id="tick" list="tickmarks" min="0" max="100">
+    <datalist id="tickmarks">
+      <option value="0"></option>
+      <option value="10"></option>
+      <option value="20"></option>
+      <option value="30"></option>
+      <option value="40"></option>
+      <option value="50"></option>
+      <option value="60"></option>
+      <option value="70"></option>
+      <option value="80"></option>
+      <option value="90"></option>
+      <option value="100"></option>
+    </datalist>
+    <li>color = selecionador de cores</li>
+    <input type="color" name="color" id="">
+    <li>placeholder =  dentro do comando  "< input type "text" placeholder"Insira seu nome" > = pre dispõe um texto dentro da input</li>
+    <li>required = dentro do comando  "< input type "text" placeholder"Insira seu nome" > = mostra uma mensagem de aviso como = Preencha o campo para continuar e evita de enviar campos vazios</li>
+    <li>minlength/maxlength = define um limite para os caracteres inseridos na input "< input type "tipo" minlength="3" > </li>
+    <li>disabled = desativa qualquer campo input = "< input type "text" disabled></li>
+    <li>value = pre define um valor</li>
+    <li>action = define uma ação proveniente dum script</li>
+      </ul>
+    </h2>
+    <h2>      
+      <ul>
+        <p>Audio</p>
+        <li> < audio src="arquivo local" href="para baixar o arquivo" type="audio/mp3" autoplay ou controls >< /audio ></li>
+        <li>< audio controls> < source src="" type="audio/mp3"> < /audio ></li>
+        <li><audio src="" controls></audio></li>
+        <li> < figcaption> Legenda acima do player < /figcaption><br>
+        < audio src="" >< /audio><br>
+        < a href="diretorio do arquivo ou link para baixar"> < /a></li>
+        <p>Video</p>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </h2>
+</body>
+</html>
