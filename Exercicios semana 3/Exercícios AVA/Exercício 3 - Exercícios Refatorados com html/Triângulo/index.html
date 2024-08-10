@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <title>Cálculo de Área e Perímetro</title>
+</head>
+<body>
+  <main class="container">
+    <div>
+      <h1>Cálculo de Área e Perímetro de um círculo</h1>
+      <form class="form-group">        
+        <div>
+          <label for="valorLado1" name="valorLado1" id="valorLado1">Informe o comprimento do primeiro lado:</label>
+          <input type="number" name="lado1" id="lado1">
+        </div>
+        <div>
+          <label for="valorLado2" name="valorLado2" id="valorLado2">Informe o comprimento do segundo lado:</label>
+          <input type="number" name="lado2" id="lado2">
+        </div>
+        <div>
+          <label for="valorLado3" name="valorLado3" id="valorLado3">Informe o comprimento do terceiro lado:</label>
+          <input type="number" name="lado3" id="lado3">
+        </div>        
+      </form>
+      <button class="btn" id="calcular">Calcular</button>
+    </div>
+  </main>
+  <section class="container">
+    <div class="form-group">
+      <div id="resultado1" class="form-info"></div>
+      <div id="resultado2" class="form-info"></div>
+    </div>
+  </section>
+<script src="script/triangulo.js"></script>
+</body>
+</html>

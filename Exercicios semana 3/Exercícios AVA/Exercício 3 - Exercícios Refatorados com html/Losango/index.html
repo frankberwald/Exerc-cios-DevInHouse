@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <title>Cálculo de área e perímetro</title>
+</head>
+<body>
+  <main class="container">
+    <h1>Cálculo de área e perímetro de um losango</h1>
+      <div>
+        <form class="form-group">
+          <div>
+            <label for="" class="form-info">Digite o comprimento dos lados:</label>
+            <input type="number" name="lados" id="lados" placeholder="Apenas números">
+          </div>
+          <div>
+            <label for="" class="form-info">Digite o comprimento da diagonal maior:</label>
+            <input type="number" name="dmaior" id="dmaior" placeholder="Apenas números">
+          </div>
+          <div>
+            <label for="" class="form-info">Digite o comprimento da diagonal menor:</label>
+            <input type="number" name="dmenor" id="dmenor" placeholder="Apenas números">
+          </div>
+        </form>
+        <button class="btn" id="calcular">Calcular</button>
+      </div>
+    <footer>&copy 2024 Franklin Berwald</footer>
+    <script src="script/losango.js"></script>
+  </main>
+  <section class="container">
+    <div class="form-group">
+      <div id="resultado1" class="form-info"></div>
+      <div id="resultado2" class="form-info"></div>
+    </div>
+  </section>
+</body>
+</html>

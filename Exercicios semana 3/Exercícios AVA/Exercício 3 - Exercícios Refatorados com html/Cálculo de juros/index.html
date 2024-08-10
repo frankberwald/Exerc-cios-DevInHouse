@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <title>Cálculo de juros</title>
+</head>
+<body>
+  <main class="container">
+    <h1>Cálculo de juros de um empréstimo</h1>
+      <div>
+        <form class="form-group">
+          <div>
+            <label for="" class="form-info">Insira o capital abaixo:</label>
+            <input type="number" name="capital" id="capital" placeholder="Apenas números">
+          </div>
+          <div>
+            <label for="" class="form-info">Insira o percentual de taxa abaixo:</label>
+            <input type="number" name="capital" id="taxa" placeholder="Apenas números">
+          </div>
+          <div>
+            <label for="" class="form-info" >Insira o tempo do parcelamento abaixo:</label>
+            <p class="subtitle">Juros ao mês.</p>
+            <input type="number" name="capital" id="tempo" placeholder="Apenas números">
+          </div>
+        </form>
+        <button class="btn" id="calcular">Calcular</button>
+      </div>
+    <footer>&copy 2024 Franklin Berwald</footer>
+    <script src="script/juros.js"></script>
+  </main>
+  <section class="container">
+    <div class="form-group">
+      <div id="resultado1" class="form-info"></div>
+      <div id="resultado2" class="form-info"></div>
+      <div id="resultado3" class="form-info"></div>
+      <div id="resultado4" class="form-info"></div>
+      <div id="resultado5" class="form-info"></div>
+    </div>
+  </section>
+</body>
+</html>
